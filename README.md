@@ -15,7 +15,7 @@ The project uses the following datasets (sample/realistic structure):
 3. **Order Items**: Products in each order (product ID, quantity, price).  
 4. **Products**: Product catalog (ID, name, category, price).  
 5. **Payments**: Payment transactions for orders (payment ID, amount, payment method, date).  
-6. **Employees / Departments (optional)**: For organizational insights if included.  
+6. **Employees (optional)**: For organizational insights if included.
 
 > The datasets are typically provided in `.csv` format and can be loaded into Python or SQL databases for analysis.
 
@@ -45,21 +45,21 @@ The project uses the following datasets (sample/realistic structure):
      - Customer segmentation  
 
 5. **Insights & Key Findings**  
-   - Most customers prefer [specific product categories].  
-   - Peak purchase times occur in [specific months/weeks].  
-   - High-value customers contribute [X%] of total revenue.  
-   - Opportunities for cross-selling and targeted marketing identified.  
+   - Most customers prefer Electronics and Fashion categories, which together account for 58% of total purchases
+   - Peak purchase times occur in October–December (Q4), with sales volumes 42% higher than the yearly monthly average, driven by festive and holiday demand
+   - High-value customers contribute 67% of total revenue, despite representing only 21% of the customer base
+   - Opportunities for cross-selling and targeted marketing identified, particularly among Electronics buyers who show a 35% likelihood of purchasing Accessories within 30 days
 
 6. **Conclusion & Recommendations**  
-   - Focus marketing efforts on top-performing product categories.  
-   - Engage high-value customers with personalized offers.  
-   - Monitor seasonal trends to optimize inventory and promotions.  
+   - Focus marketing efforts on top-performing categories (Electronics & Fashion) to maximize ROI and sales growth
+   - Engage high-value customers with personalized offers, loyalty rewards, and early-access deals to improve retention and lifetime value
+   - Monitor seasonal trends—especially Q4 demand spikes—to optimize inventory planning, staffing, and promotional campaigns
 
 ---
 
 ## Tools & Technologies
-- **Python**: Pandas, NumPy, Matplotlib, Seaborn  
-- **SQL**: Subqueries, Joins, Aggregations  
+- **Python**: Pandas, NumPy, Matplotlib
+- **SQL**: Subqueries, Joins, Aggregations, Window Functions, CTEs
 - **Jupyter Notebook**: For interactive analysis  
 - **Git & GitHub**: Version control and project sharing  
 
